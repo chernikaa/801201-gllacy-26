@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Tatyana Gonoskova](https://up.htmlacademy.ru/htmlcss/26/user/801201).
-* Наставник: [Anna Ponomareva](https://htmlacademy.ru/profile/id153610).
+* Наставник:[Arsenii Berezin](https://htmlacademy.ru/profile/id263537).
 
 ---
 

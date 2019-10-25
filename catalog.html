@@ -149,24 +149,87 @@
     </footer>
   </body>
 </html>
-<section>
-        <ul>
-          <li>
-            <button type="button">
-              Х
-            </button>
-            <a href="">Пломбир с апельсиновым джемом 1,5 кг х 2 300 р</a>
-          </li>
-          <li>
-             <button type="button">
-              Х
-            </button>
-            <a href="">Клубничный пломбир с присыпкой из белого шоколада 1,5 кг х 2 450 р</a>
-          <li>
-            <b>Итого: 750 руб</b>
-          </li>
-          <button type="submit">
-            Оформить заказ
-          </button>
+  
+  <section>
+        <h2>Сортировка</h2>
+      <section>
+        <button type="submit">По популярности</button>
+      </section>
+      <section>
+        <p>Цена: 100 руб. - 500 руб.</p>
+        <input type="range" name="">
+      </section>
+      <section>
+        <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+          <fieldset>
+            <legend>Жирность:</legend>
+            <ul>
+              <li>
+                <input type="radio" name="product-group" id="filter-0">
+                <label for="filter-0">0%</label>
+              </li>
+              <li>
+                <input type="radio" name="product-group" id="filter-10" checked>
+                <label for="filter-10">до 10%</label>
+              </li>
+              <li>
+                <input type="radio" name="product-group" id="filter-30">
+                <label for="filter-30">до 30%</label>
+              </li>
+               <li>
+                <input type="radio" name="product-group" id="filter-30">
+                <label for="filter-30">выше 30%</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Наполнители:</legend>
+            <ul>
+              <li>
+                <input type="checkbox" name="shokolad" id="filter-shokolad" checked>
+                <label for="filter-shokolad">шоколадные</label>
+              </li>
+              <li>
+                <input type="checkbox" name="sahar" id="filter-sahar" checked>
+                <label for="filter-sahar">сахарные присыпки</label>
+              </li>
+              <li>
+                <input type="checkbox" name="frukti" id="filter-frukti">
+                <label for="filter-frukti">фрукты</label>
+              </li>
+              <li>
+                <input type="checkbox" name="sirop" id="filter-sirop">
+                <label for="filter-sirop">сиропы</label>
+              </li>
+              <li>
+                <input type="checkbox" name="dzem" id="filter-dzem">
+                <label for="filter-dzem">джемы</label>
+              </li>
+          </fieldset>
+          <button type="submit">Применить</button>
         </form>
       </section>
+
+ 
+<section>
+  <form>
+    <ul>
+      <li>
+        <button type="button">
+          Х
+        </button>
+          <a href="">Пломбир с апельсиновым джемом 1,5 кг х 2 300 р</a>
+      </li>
+      <li>
+        <button type="button">
+                Х
+        </button>
+          <a href="">Клубничный пломбир с присыпкой из белого шоколада 1,5 кг х 2 450 р</a>
+        <li>
+          <b>Итого: 750 руб</b>
+        </li>
+        <button type="submit">
+          Оформить заказ
+        </button>
+    </form>
+  </section>

@@ -87,10 +87,12 @@
       </article>
       <section>
         <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
-        <form>
+        <form action="https://echo.htmlacademy.ru" form method="post">
+          <p>
           <label class="visually-hidden">Введите Ваш e-mail</label>
-          <input type="email" value="email@example.com"> 
+          <input id="email" type="email" name="email" value="" placeholder="email@example.com">
           <button type="submit">Отправить</button>
+          </p>
         </form>
       </section>
       <section>
@@ -189,13 +191,15 @@
         </ul>
       </section>
       <section>
-          <form>
+          <form action="https://echo.htmlacademy.ru" method="get">
         <p>
           <label for="name">Что ищем?</label>
           <input id="name" type="text" name="name" value="" placeholder="Введите текст для поиска">
         </p>
       </section>
-      <section>
+          </form>
+        <section>
+          <form action="https://echo.htmlacademy.ru" method="post">
         <p>
           <label for="name">Как Вас зовут?</label>
           <input id="name" type="text" name="name" value="" placeholder="Введите Ваше имя">
@@ -211,7 +215,7 @@
           <button type="submit">
             Отправить
           </button>
-        </form>
+      </form>
         <button type="button">
           Закрыть
         </button>

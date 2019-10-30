@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1,3;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background-image: url("../img/indexImg/Фон.png");
+  background-color: #849d8f;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+header section{
+	 display: inline-block;
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+
+  background-color: #849d8f;
+}
+
+.main-navigation img{
+ padding-top: 9px;
+ padding-left: 27px;
+}
+
+.site-navigation,
+.user-navigation {
+	 display: inline-block;
+  /*list-style: none;*/
+
+}
+.site-navigation li{
+	display: inline-block;
+    text-align: justify ;
+
+
+}
+
+.site-navigation a,
+.user-navigation a {
+  color: #ffffff;
+
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  background-color: #242424;
+
+}
+
+.button {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #000000;
+  border: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #663d15;
+}
+
+
+.Фон {
+  background-image: url("Фон.png");
+  position: absolute;
+  left: -25px;
+  top: 0px;
+  width: 1250px;
+  height: 2449px;
+  z-index: 35;
+}

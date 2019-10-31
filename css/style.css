@@ -4,12 +4,11 @@ body {
 
   font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
-  line-height: 1,3;
+  line-height: 1,38;
   font-weight: 700;
   color: #ffffff;
-  text-transform: uppercase;
-
-  background-image: url("../img/indexImg/Фон.png");
+  
+  background-image: url("../img/indexImg/Фон.jpg");
   background-color: #849d8f;
   background-position: top center;
   background-repeat: no-repeat;
@@ -19,40 +18,21 @@ a {
   text-decoration: none;
 }
 
-header section{
+.main-header
 	 display: inline-block;
 }
 
 .main-navigation {
   font-size: 16px;
-  line-height: 18px;
+  line-height: 1,3;
   color: #ffffff;
 
   background-color: #849d8f;
 }
 
-.main-navigation img{
- padding-top: 9px;
- padding-left: 27px;
-}
-
-.site-navigation,
-.user-navigation {
-	 display: inline-block;
-  /*list-style: none;*/
-
-}
-.site-navigation li{
-	display: inline-block;
-    text-align: justify ;
-
-
-}
-
 .site-navigation a,
 .user-navigation a {
   color: #ffffff;
-
 }
 
 .site-navigation a:hover,
@@ -69,10 +49,14 @@ header section{
   text-align: center;
   color: #ffffff;
   vertical-align: middle;
-  text-transform: uppercase;
 
-  background-color: #000000;
   border: none;
+  
+  width: 129px;
+  height: 44px;
+  box-shadow: 0px 2px 2px 0 rgba(172, 16, 0, 0.64);
+  background-image: linear-gradient(to top, #e74a35, #f26843);
+  border-radius: 25px
 }
 
 .button:hover,
@@ -81,13 +65,90 @@ header section{
   background-color: #663d15;
 }
 
+.crem-brule {
+  
 
-.Фон {
-  background-image: url("Фон.png");
-  position: absolute;
-  left: -25px;
-  top: 0px;
-  width: 1250px;
-  height: 2449px;
-  z-index: 35;
+
+
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+
+  background-image: url("../img/indexImg/Фон.jpg");
 }
+}
+
+.glaccy-shop {
+  color: #323232;
+  background-image: url("../img/indexImg/вафля.jpg")
+}
+
+.ice-cream ul {
+  list-style: none;
+}
+
+.main-footer {
+  color: #ffffff;
+
+  background-color: #849d8f;
+  background-image: url("../img/indexImg/Фон.png");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.footer-information a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer-information a:hover,
+.footer-information a:focus {
+  text-decoration: none;
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social ul {
+  list-style: none;
+}
+
+.social-button {
+  color: #ffffff;
+}
+
+.footer-copyright {
+  text-align: center;
+}
+
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+
+
+
+
+.main-navigation img{
+ padding-top: 9px;
+ padding-left: 27px;
+}
+
+.site-navigation,
+.user-navigation {
+	 display: inline-block;
+  /*list-style: none;*/
+
+}
+.site-navigation li{
+	display: inline-block;
+    text-align: justify ;
+}
+
+

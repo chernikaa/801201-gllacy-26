@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <link href="<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <title>HTML Academy:Глейси</title>
   </head>
@@ -24,7 +24,7 @@
           </ul>
         </nav>
       </section>
-      <section>
+      <section class="user-navigation">
         <ul>
           <li>
             <a href="">Поиск</a>
@@ -41,18 +41,20 @@
     <main>
       <h1 class="visually-hidden">GlaccyShop</h1>
       <section class="crem-brule">
-        <img src="img/indexImg/Мороженко2.png" width="630" height="600" alt="Фото мороженого">
+        
+        <img src="img/indexImg/1.png" style="position: relative;/* left: 0; */z-index: 40;" width="372" height="584" alt="Фото мороженого">
+        <img src="img/indexImg/2.png" style="position: relative;left: -70px;z-index: 30;" width="372" height="584" alt="Фото мороженого">
+        
+
         <h2>Крем-брюле и пломбир с малиновым джемом</h2>
         <a class="button" href="">Давайте оба!</a>
       </section>
-        <div>
-          <img src="img/indexImg/Малиновый_фон.jpg" width="560" height="229" alt="Малинка">
+        <div class="banner1">
           <h3>Малинка даром!</h3>
           <p>При покупке 2 кг любого фруктового мороженого, добавим в ваш заказ банку малинового варенья бесплатно.</p>
           <a class="button" href="">Хочу варенье!</a>
         </div>
-        <div>
-          <img src="img/indexImg/Шоколадный_фон.jpg" width="560" height="229" alt="Шоколадки">
+        <div class="banner2">
           <h3>Шоколадки даром!</h3>
           <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно бесплатно.</p>
           <a class="button" href="">Хочу шоколадки!</a>
@@ -154,8 +156,7 @@
         <p>Сделано в <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a> &copy 2019</p>
        </div>
     </footer>
-  </body>
-</html>
+
     <section>
         <h2>Личный кабинет</h2>
         <p>Введите свой логин и пароль.</p>
@@ -233,3 +234,7 @@
           Закрыть
         </button>
       </section>
+
+
+  </body>
+</html>

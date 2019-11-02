@@ -8,7 +8,7 @@ body {
   font-weight: 700;
   color: #ffffff;
   
-  background-image: url("../img/indexImg/Фон.png");
+  background-image: url("../img/indexImg/gradient.png");
   background-color: #849d8f;
   background-position: top center;
   background-repeat: no-repeat;
@@ -16,6 +16,11 @@ body {
 
 a {
   text-decoration: none;
+}
+
+h3 {
+  font-size: 35px;
+  font-weight: 700;
 }
 
 .main-header
@@ -43,6 +48,26 @@ a {
 
 }
 
+.banner1 {
+  font-size: 18px;
+  background-image: url("../img/indexImg/Малиновый_фон.jpg");
+
+  width: 560px;
+  height: 229px;
+  object-fit: contain;
+  border-radius: 15px;
+}
+  
+.banner2 {
+  font-size: 18px;
+  background-image: url("../img/indexImg/Шоколадный_фон.jpg");
+
+  width: 560px;
+  height: 229px;
+  object-fit: contain;
+  border-radius: 15px;
+}
+
 .button {
   font: inherit;
 
@@ -66,14 +91,14 @@ a {
 }
 
 .crem-brule {
-
+  position: relative;
   font-size: 60px;
   font-weight: bold;
   line-height: 1;
   letter-spacing: normal;
   text-align: center;
+  /*background: url("../img/indexImg/gradient.png") center center no-repeat;*/
 
-  background-image: url("../img/indexImg/Фон.jpg");
 }
 
 .e-mail{
@@ -81,7 +106,12 @@ a {
 }
 .glaccy-shop {
   color: #323232;
-  background-image: url("../img/indexImg/вафля.jpg")
+  background-image: url("../img/indexImg/вафля.jpg");
+
+  width: 1146px;
+  height: 306px;
+  object-fit: contain;
+  border-radius: 15px;
 }
 
 .ice-cream ul {
@@ -131,7 +161,13 @@ a {
   background-color: #ffffff;
 }
 
-
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
 
 
 

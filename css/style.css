@@ -8,7 +8,7 @@ body {
   font-weight: 700;
   color: #ffffff;
   
-  background-image: url("../img/indexImg/Фон.jpg");
+  background-image: url("../img/indexImg/Фон.png");
   background-color: #849d8f;
   background-position: top center;
   background-repeat: no-repeat;
@@ -66,9 +66,6 @@ a {
 }
 
 .crem-brule {
-  
-
-
 
   font-size: 60px;
   font-weight: bold;
@@ -78,8 +75,10 @@ a {
 
   background-image: url("../img/indexImg/Фон.jpg");
 }
-}
 
+.e-mail{
+  background-image: url("../img/indexImg/Почтовый-фон.png");
+}
 .glaccy-shop {
   color: #323232;
   background-image: url("../img/indexImg/вафля.jpg")
@@ -87,6 +86,7 @@ a {
 
 .ice-cream ul {
   list-style: none;
+  border-radius: 40%;
 }
 
 .main-footer {

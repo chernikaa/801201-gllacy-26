@@ -105,19 +105,49 @@ h3 {
   background-image: url("../img/indexImg/Почтовый-фон.png");
 }
 .glaccy-shop {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1,38;
+
   color: #323232;
   background-image: url("../img/indexImg/вафля.jpg");
-
+  
   width: 1146px;
   height: 306px;
   object-fit: contain;
   border-radius: 15px;
+
+  
 }
+
+.bold {
+  font-size: 24px;
+  font-weight: 500;
+}
+
 
 .ice-cream ul {
   list-style: none;
-  border-radius: 40%;
+  
 }
+
+.ice-cream img{
+ border-radius: 50%; 
+}
+
+.ice-cream li span{
+ font-size: 30px; 
+}
+
+.adres {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.Ruble{
+  font-size: 45px;
+}
+
 
 .main-footer {
   color: #ffffff;
